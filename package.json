@@ -1,0 +1,21 @@
+{
+  "name": "unzippo",
+  "version": "1.0.1",
+  "description": "One-liner approach to safely read streams from zip files",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/do-/unzippo"
+  },
+  "author": "Dmitry Ovsyanko",
+  "license": "BSD",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "node-stream-zip": "^1.8.2"
+  }
+}
