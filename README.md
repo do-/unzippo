@@ -1,4 +1,4 @@
-# unzip-stream
+# unzippo
 
 One-liner approach to safely read streams from zip files.
 
@@ -6,10 +6,16 @@ This is a thin wrapper around `node-stream-zip` that does all the actual job. Th
 
 "Atomic" means the zip file is opened, its central directory is read and then the resources are disposed for each separate call. In most cases, this cause no significant overhead but allows to write simpler, cleaner and easier to maintain code. 
 
+## Installation
+
+```
+npm install unzippo
+```
+
 ## Basic usage
 
 ```
-const zip = require ('unzip-stream')
+const zip = require ('unzippo')
 
 let entries = await zip.list ('/some/archive.zip')
 
