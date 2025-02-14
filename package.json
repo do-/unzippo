@@ -3,8 +3,30 @@
   "version": "1.0.3",
   "description": "One-liner approach to safely read streams from zip files",
   "main": "index.js",
+  "files": [
+    "/badges"
+  ],
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test-ci": "jest --ci --coverage"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "index.js"
+    ],
+    "coverageReporters": [
+      "clover",
+      "json",
+      "lcov",
+      "text",
+      "json-summary"
+    ],
+    "verbose": false,
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/__tests__/data",
+      "/__tests__/lib"
+    ]
   },
   "repository": {
     "type": "git",
