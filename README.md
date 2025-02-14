@@ -1,3 +1,6 @@
+![workflow](https://github.com/do-/unzippo/actions/workflows/main.yml/badge.svg)
+![Jest coverage](./badges/coverage-jest%20coverage.svg)
+
 # unzippo
 
 One-liner approach to safely read streams from zip files.
