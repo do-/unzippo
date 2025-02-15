@@ -1,6 +1,6 @@
 {
   "name": "unzippo",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "One-liner approach to safely read streams from zip files",
   "main": "index.js",
   "files": [
